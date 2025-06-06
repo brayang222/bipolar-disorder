@@ -16,8 +16,8 @@ export const Testimonials = () => {
               />
             </div>
             <blockquote className="text-gray-700 italic mb-4">
-              "Encontré esperanza y herramientas prácticas que me ayudaron
-              durante mis episodios más difíciles. No estoy solo en esto."
+              &quot;Encontré esperanza y herramientas prácticas que me ayudaron
+              durante mis episodios más difíciles. No estoy solo en esto.&quot;
             </blockquote>
             <cite className="text-gray-900 font-semibold">
               — María González
@@ -34,8 +34,9 @@ export const Testimonials = () => {
               />
             </div>
             <blockquote className="text-gray-700 italic mb-4">
-              "Las técnicas de manejo del ánimo que aprendí aquí cambiaron mi
-              vida. Ahora tengo más control sobre mis estados emocionales."
+              &quot;Las técnicas de manejo del ánimo que aprendí aquí cambiaron
+              mi vida. Ahora tengo más control sobre mis estados
+              emocionales.&quot;
             </blockquote>
             <cite className="text-gray-900 font-semibold">
               — Carlos Mendoza
@@ -52,9 +53,9 @@ export const Testimonials = () => {
               />
             </div>
             <blockquote className="text-gray-700 italic mb-4">
-              "El apoyo y la comprensión que encontré me dieron la fuerza para
-              seguir adelante. Recomiendo este recurso a cualquiera que lo
-              necesite."
+              &quot;El apoyo y la comprensión que encontré me dieron la fuerza
+              para seguir adelante. Recomiendo este recurso a cualquiera que lo
+              necesite.&quot;
             </blockquote>
             <cite className="text-gray-900 font-semibold">— Ana Rodríguez</cite>
             <p className="text-sm text-gray-500">Cliente desde 2024</p>
@@ -64,9 +65,9 @@ export const Testimonials = () => {
         <div className="mt-12 text-center">
           <div className="testimonial-box">
             <blockquote className="text-xl text-gray-800 italic mb-4">
-              "Gracias a las estrategias aprendidas, pude recuperar mi
+              &quot;Gracias a las estrategias aprendidas, pude recuperar mi
               estabilidad emocional y mejorar mi calidad de vida
-              significativamente."
+              significativamente.&quot;
             </blockquote>
             <cite className="text-gray-600 font-medium">
               —Jordan A., Defensor Bipolar
