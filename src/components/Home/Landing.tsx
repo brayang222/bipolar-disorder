@@ -2,8 +2,8 @@ import React from "react";
 import { Hero } from "./Hero";
 import { About } from "./About";
 import { MoodInfluence } from "./MoodInfluence";
+import { BlogSection } from "./BlogSection";
 import { Testimonials } from "./Testimonials";
-import { Resources } from "./Resources";
 
 export const Landing = () => {
   return (
@@ -11,8 +11,8 @@ export const Landing = () => {
       <Hero />
       <About />
       <MoodInfluence />
+      <BlogSection />
       <Testimonials />
-      <Resources />
     </div>
   );
 };

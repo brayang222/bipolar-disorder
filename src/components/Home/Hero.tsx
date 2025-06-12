@@ -1,5 +1,5 @@
 "use client";
-import { scrollToSection } from "@/utils";
+import { scrollToSection } from "@/utils/scrollToSection";
 
 export const Hero = () => {
   return (

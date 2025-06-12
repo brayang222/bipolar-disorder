@@ -1,0 +1,45 @@
+| Comando                             | Para qué sirve                                  | Cuándo usarlo                   |
+| ----------------------------------- | ----------------------------------------------- | ------------------------------- |
+| `bun prisma init`                   | Inicializar Prisma                              | Al empezar                      |
+| `bun prisma db push`                |sincroniza los schemas con la bd(sin migraciones)| Desarrollo rápido               |
+| `bun prisma migrate dev --name xxx` | cuando se hace un cambio en el schema           | Desarrollo profesional          |
+| `bun prisma generate`               | Regenerar el cliente Prisma                     | Después de cambios en el schema |
+| `bun prisma studio`                 | Interfaz visual de la base de datos             | Ver/editar datos                |
+| `bun prisma migrate reset`          | Resetear la base de datos                       | Desarrollo o pruebas            |
+
+-----------------------------------------------------
+const newUser = await prisma.user.create({
+  data: {
+    name: 'Brayan',
+    email: 'brayan@example.com',
+    age: 25
+  }
+});
+-----------------------------------------------------
+const user = await prisma.user.findUnique({
+  where: { id: 1 }
+});
+-----------------------------------------------------
+const updatedUser = await prisma.user.update({
+  where: { id: 1 },
+  data: {
+    name: 'Brayan Actualizado',
+    age: 26
+  }
+});
+-----------------------------------------------------
+const deletedUser = await prisma.user.delete({
+  where: { id: 1 }
+});
+-----------------------------------------------------
+const exists = await prisma.user.findUnique({
+  where: { email: 'brayan@example.com' }
+});
+
+if (exists) {
+  console.log('El usuario ya existe');
+}
+-----------------------------------------------------
+
+
+
